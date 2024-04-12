@@ -1,0 +1,62 @@
+.technologies {
+  padding: 1rem;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.technologiesHeader {
+  font-size: 1.7rem;
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.5rem;
+  /* text-shadow: 2px 2px 5px white; */
+  text-transform: capitalize;
+  padding: 1rem;
+}
+
+.technologiesDesc{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+
+.technologyBlog{
+  display: flex;
+  /* height: 5rem; */
+  width: 80%;
+  margin: auto;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 1rem;
+  padding: 0.8rem;
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+  /* gap: 1rem; */
+}
+
+.technologyBlogImage>img{
+  /* height: 8rem; */
+  border-radius: 1rem;
+}
+
+/* .technologyBlog:hover{
+  transform: scale(105%);
+  background-color: white;
+  color: black;
+} */
+
+.technologyBlogHeader {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.technologyBlogDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

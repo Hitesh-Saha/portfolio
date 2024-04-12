@@ -1,0 +1,89 @@
+.radialContainer {
+  height: 18rem;
+  width: 13rem;
+  padding-right: 2rem!important;
+  padding-left: 2rem!important;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
+  border-radius: 4px;
+  transition: 0.5s;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.radialContainer:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+.radialContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50%;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,0.03);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.CircularProgressbar {
+  width: 100%;
+  border-radius: 50%;
+  background: #222 !important;
+  box-shadow: inset 0 0 50px #000;
+  z-index: 1000;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CircularProgressbar-trail {
+  stroke: black !important;
+}
+
+.CircularProgressbar-path {
+  stroke: #00a1ff !important;
+}
+
+.CircularProgressbar-text {
+  fill: #777 !important;
+  font-size: 1.5rem;
+  transition: 0.5s;
+}  
+
+.radialContainer:hover .CircularProgressbar-text {
+  font-size: 1.8rem;
+  fill: #fff !important;
+}
+
+.skillName {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #777;
+  transition: 0.5s;
+  margin-top: 1rem;
+}
+
+.radialContainer:hover .skillName{
+  color: #fff;
+}
+
+.skillHeader {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  padding-top: 0.5rem;
+}
+
+.skillDesc {
+  overflow-x: auto; 
+  display: flex!important;
+  flex-direction: row!important;
+}

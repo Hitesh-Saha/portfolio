@@ -1,0 +1,63 @@
+.parallax {
+    /* The image used */
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/CubeImage.png");
+    /* Set a specific height */
+    /* min-height: 90vh;  */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.heroSection {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.HeroLabel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5rem;
+}
+
+.HeroLabel > div {
+    margin: 0.8rem;
+}
+
+.HeroName {
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.HeroHeader > h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 3rem;
+}
+
+.text-Header {
+    color: #00a1ff;
+    font-size: 2.8rem;
+}
+
+.HeroDesc {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    width: 50%;
+    line-height: 1.8rem;
+}
+
+/* .HeroName:hover {
+    color: #00a1ff;
+    transform: translateX(10px);
+    transition: 1s;
+} */

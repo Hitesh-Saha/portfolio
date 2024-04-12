@@ -1,0 +1,31 @@
+.backgroundOverlay{
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../assets/CloudImage.jpg");
+    min-height: 100vh; 
+    /* position: relative; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.submitBtn {
+    border: 1px solid #00a1ff;
+    color: #00a1ff;
+}
+  
+.submitBtn:hover {
+    background-color: #00a1ff;
+}
+/* .contacts::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+} */
+
+/* .container {
+    z-index: 99;
+} */
