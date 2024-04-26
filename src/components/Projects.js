@@ -3,19 +3,29 @@ import '../styles/projects.css'
 import { projectData } from '../static/projects'
 
 const Projects = () => {
+
+  const handleProject = (project) => {
+    const link = document.createElement('a')
+    link.href = project.projectLink
+    link.target = '_blank'
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
   return (
     <>
       <div className='project pt-4'>
-          <div className='container mx-auto'>
+          <div className='container-fluid mx-auto'>
             <div className='row pb-3'>
               <div className='projectHeader'>
-                <h1>Projects</h1>
+                <h1>My Works</h1>
               </div>
             </div>
             <div className='projectDesc pt-5'>
               {projectData.map((item) => {
                 return (
-                  <div className='projectCard'>
+                  <div className='projectCard' onClick={() => handleProject(item)} key={item.key}>
                     <div className='imgbox'>
                       <img src={item.projectImage} alt="..."/>
                     </div>

@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <div className="parallax">
         <HeroSection/>
-        <Technologies/>
         <Certifications/>
-        {/* <Projects/> */}
+        <Projects/>
+        <Technologies/>
     </div>
   )
 }

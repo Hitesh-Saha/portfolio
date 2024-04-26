@@ -1,41 +1,46 @@
 .aboutDesc {
-  text-align: left;
+  /* text-align: left;
   font-size: 1.3rem;
-  line-height: 2rem;
+  line-height: 2rem; */
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/Background.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.aboutDesc p {
+/* .aboutDesc p {
   margin-bottom: 1rem;
-}
+} */
 
-.image-container {
+/* .image-container {
   position: relative;
   height: 20rem;
   width: 20rem;
-}
-.image-container > div {
-  height: 200px;
-  width: 200px;
+} */
+.image-container > img {
+  height: 100%;
+  width: 100%;
   /* margin: auto; */
-  position: absolute;
+  /* position: absolute; */
   /* margin-top: 5rem; */
 }
 
-.image-container > div > img {
-  height: 200px;
-  width: 200px;
+.image-container {
+  height: 100%;
+  width: 100%;
   /* clip-path: inset(5% 20% 15% 10%); */
 } 
-.image-container > div:nth-child(1) {
+/* .image-container > div:nth-child(1) {
   top: 0px;
   left: 0px;
-}
-.image-container > div:nth-child(2) {
+} */
+/* .image-container > div:nth-child(2) {
   bottom: 0px;
   right: 0px;
   z-index: 1;
-}
-.image-container > div > img:hover {
+} */
+/* .image-container > div > img:hover { */
   /* transform: scale(1.1); */
-  transform: translateY(-20px);
-}
+  /* transform: translateY(-20px);
+} */

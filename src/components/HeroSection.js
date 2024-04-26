@@ -7,10 +7,10 @@ const HeroSection = () => {
       <div className="heroSection">
           <div className="HeroLabel">
             <div className="HeroName">
-              <h2>Hi, I'm Hitesh</h2>
+              <h2 style={{color: '#00a1ff'}}>Hi, I'm Hitesh</h2>
             </div>
             <div className="HeroHeader">
-              <h1><span className="text-Header">S</span>oftware <span className="text-Header">D</span>eveloper <br/>
+              <h1><span className="text-Header">F</span>ull <span className="text-Header">S</span>tack <span className="text-Header">W</span>eb <span className="text-Header">D</span>eveloper <br/>
               <span className="text-Header">W</span>eb <span className="text-Header">D</span>esigner
               <br/> <span className="text-Header">D</span>ev<span className="text-Header">O</span>ps <span className="text-Header">E</span>ngineer </h1>
             </div>

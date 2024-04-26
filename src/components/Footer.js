@@ -3,6 +3,7 @@ import '../styles/footer.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
+  faGithub,
   faInstagram,
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
@@ -21,7 +22,8 @@ const Footer = () => {
                         <a href="#"><FontAwesomeIcon icon={faFacebookF}/></a>
                         <a href="#"><FontAwesomeIcon icon={faInstagram}/></a>
                         <a href="https://www.linkedin.com/in/hitesh-saha-5401671b3" target='_blank'><FontAwesomeIcon icon={faLinkedin}/></a>
-                        <a href="#"><FontAwesomeIcon icon={faEnvelope}/></a>
+                        <a href=""><FontAwesomeIcon icon={faEnvelope}/></a>
+                        <a href="https://github.com/Hitesh-Saha" target='_blank'><FontAwesomeIcon icon={faGithub}/></a>
                     </div>
                 </div>
             </div>
@@ -38,7 +40,7 @@ const Footer = () => {
             </div>
             <div className='row'>
                 <div className="footer-col">
-                    <p>&copy;2023 Hitesh Saha | All Rights Reserved</p>
+                    <p>&copy;2024 Hitesh Saha | All Rights Reserved</p>
                 </div>
             </div>
         </div>
