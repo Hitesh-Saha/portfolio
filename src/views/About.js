@@ -1,6 +1,6 @@
 import React from 'react'
 import Profile1 from '../assets/Profile1.png'
-import Profile2 from '../assets/Profile2.png'
+// import Profile2 from '../assets/Profile2.png'
 import '../styles/aboutMe.css'
 
 

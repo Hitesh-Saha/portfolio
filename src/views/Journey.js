@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/journey.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import vueLogo from '../assets/Vue.png'
+// import vueLogo from '../assets/Vue.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCalendar
