@@ -89,76 +89,76 @@ const Technologies = () => {
           <div className='row pt-3'>
             <div className='d-flex flex-row gap-5 flex-wrap justify-content-center'>
               <div className='pointer'>
-                <img src={HTMLLogo} height='50px' width='50px'></img>
+                <img src={HTMLLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={CSSLogo} height='50px' width='50px'></img>
+                <img src={CSSLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={JSLogo} height='50px' width='50px'></img>
+                <img src={JSLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={TSLogo} height='50px' width='50px'></img>
+                <img src={TSLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={ReactLogo} height='50px' width='50px'></img>
+                <img src={ReactLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={VueLogo} height='50px' width='50px'></img>
+                <img src={VueLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={NodeLogo} height='50px' width='50px'></img>
+                <img src={NodeLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={ExpressLogo} height='50px' width='50px'></img>
+                <img src={ExpressLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={PythonLogo} height='50px' width='50px'></img>
+                <img src={PythonLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={FastAPILogo} height='50px' width='50px'></img>
+                <img src={FastAPILogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={BootstrapLogo} height='50px' width='80px'></img>
+                <img src={BootstrapLogo} height='50px' width='80px' alt='Technology'></img>
               </div>
               <div>
-                <img src={TailwindLogo} height='50px' width='50px'></img>
+                <img src={TailwindLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={DaisyUILogo} height='50px' width='100px'></img>
+                <img src={DaisyUILogo} height='50px' width='100px' alt='Technology'></img>
               </div>
               <div>
-                <img src={MaterialUILogo} height='50px' width='50px'></img>
+                <img src={MaterialUILogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={SassLogo} height='50px' width='80px'></img>
+                <img src={SassLogo} height='50px' width='80px' alt='Technology'></img>
               </div>
               <div>
-                <img src={MongoLogo} height='50px' width='50px'></img>
+                <img src={MongoLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={PostgresLogo} height='50px' width='50px'></img>
+                <img src={PostgresLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={LinuxLogo} height='50px' width='50px'></img>
+                <img src={LinuxLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={GitLogo} height='50px' width='50px'></img>
+                <img src={GitLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={GithubLogo} height='50px' width='50px'></img>
+                <img src={GithubLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={DockerLogo} height='50px' width='50px'></img>
+                <img src={DockerLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={ReduxLogo} height='50px' width='50px'></img>
+                <img src={ReduxLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>
-                <img src={DevopsLogo} height='50px' width='80px'></img>
+                <img src={DevopsLogo} height='50px' width='80px' alt='Technology'></img>
               </div>
               <div>
-                <img src={NginxLogo} height='50px' width='80px'></img>
+                <img src={NginxLogo} height='50px' width='80px' alt='Technology'></img>
               </div>
             </div>
           </div>

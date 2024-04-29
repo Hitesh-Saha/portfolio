@@ -20,7 +20,7 @@ const Certifications = () => {
                     <h5 className='certificateHeader font-monospace'>{item.certificateName}</h5>
                     <p className=''>{item.certificateVendor}</p>
                     <p>Expiry: <span>{item.Expiry}</span></p>
-                    <a href={item.certificate} target='_blank' className="btn btn-outline-primary">View</a>
+                    <a href={item.certificate} target='_blank' rel='noreferrer' className="btn btn-outline-primary">View</a>
                   </div>
                 </div>
               // </div>
