@@ -7,6 +7,12 @@
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-color: black; */
+  /* color: white; */
+}
+
+.aboutHeader {
+  color: #00a1ff;
 }
 
 /* .aboutDesc p {

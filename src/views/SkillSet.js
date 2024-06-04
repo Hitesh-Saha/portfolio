@@ -29,7 +29,7 @@ const SkillSet = () => {
     <div className="container mb-5">
       <div className="row pt-4">
         <div className="col d-flex justify-content-center">
-          <h1 className="font-monospace fw-bold">My Skills</h1>
+          <h1 className="font-monospace fw-bold skillTitleHeader">My Skills</h1>
         </div>
       </div>
       <div className="col pt-5">

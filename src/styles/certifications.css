@@ -13,12 +13,14 @@
   /* text-shadow: 2px 2px 5px white; */
   text-transform: capitalize;
   padding: 1rem;
+  color: #00a1ff;
 }
 
 .certificationDesc {
   display: flex;
   justify-content: center;
-  align-items: center;
+  gap: 2rem;
+  /* align-items: center; */
 }
 
 .flip-card {
@@ -31,6 +33,7 @@
   overflow: hidden;
   text-align: center;
   position: relative;
+  color: white !important;
   /* border: 1px solid #f1f1f1; */
   /* perspective: 1000px; Remove this if you don't want the 3D effect */
 }
