@@ -40,7 +40,8 @@ const Footer = () => {
             </div>
             <div className='row'>
                 <div className="footer-col">
-                    <p>&copy;2024 Hitesh Saha | All Rights Reserved</p>
+                    <p>Copyright &copy; Hitesh Saha | 2024 | All Rights Reserved</p>
+                    <p>Developed with 💓 from Hitesh Coder 👨‍💻</p>
                 </div>
             </div>
         </div>

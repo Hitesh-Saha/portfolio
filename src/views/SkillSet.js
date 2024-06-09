@@ -12,7 +12,7 @@ import {
 const SkillSet = () => {
   const skillCardData = (item) => {
     return (
-        <div className="col-md-3 mx-auto my-4 d-flex justify-content-center align-items-center">
+        <div className="col-12 col-md-4 col-lg-3 mx-auto my-4 d-flex justify-content-center align-items-center">
           <div className="radialContainer">
             <CircularProgressbar
               counterClockwise="true"

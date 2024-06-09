@@ -23,13 +23,13 @@ const ContactMe = () => {
       <div className='container mb-5' >
         <div className='row py-4'>
           <div className="col d-flex justify-content-center">
-            <h1 className='font-monospace fw-bold text-white'>
+            <h1 className='font-monospace fw-bold' style={{color: '#00a1ff'}}>
                 Contact Me
             </h1>
           </div>
         </div>
-        <div className='row mx-5'>
-          <div className='col-6'>
+        <div className='row gy-4'>
+          <div className='col-12 col-md-6'>
             <form onSubmit={handleSubmit}>
               <div className='row'>
                 <div className="col">
@@ -64,8 +64,8 @@ const ContactMe = () => {
               </div>
             </form>
           </div>
-          <div className='col-6'>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31104.905488625303!2d77.71593303094218!3d12.964608512386313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11f35d0dfc83%3A0x30cfa512d80115f9!2sWhitefield%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1714141198600!5m2!1sen!2sin" title='current location' width="600" height="450" style={{border: 0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div className='col-12 col-md-6 location-block'>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31104.905488625303!2d77.71593303094218!3d12.964608512386313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11f35d0dfc83%3A0x30cfa512d80115f9!2sWhitefield%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1714141198600!5m2!1sen!2sin" title='current location' height='100%' width='100%' style={{border: 0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>

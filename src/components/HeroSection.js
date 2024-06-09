@@ -1,8 +1,11 @@
 import React from "react";
 import '../styles/home.css';
 import resume from '../static/resume.pdf';
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
+
   const handleDownload = () => {
     const pdfUrl = resume;
     const link = document.createElement("a");
@@ -29,7 +32,10 @@ const HeroSection = () => {
                 Versatile developer who hacks at, makes and occasionally
                 breaks things. Passionate for web designing and development. 😎✌️
               </h5>
-              <button className="btn btn-outline-primary text-white fs-6 mt-3 rounded-pill" onClick={handleDownload}>Download CV</button>
+            </div>
+            <div className="d-flex flex-row gap-3">
+              <button className="btn btn-outline-primary text-white fs-6 rounded-pill" onClick={() => navigate('/about')}>More Info</button>
+              <button className="btn btn-outline-primary text-white fs-6 rounded-pill" onClick={handleDownload}>Download CV</button>
             </div>
           </div>
         </div>

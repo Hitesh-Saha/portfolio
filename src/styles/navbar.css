@@ -11,22 +11,26 @@
 .navbar-brand {
     color: #00a1ff !important;
     font-size: 1.5rem !important;
+    text-transform: uppercase;
 }
 
 .nav-item {
     /* padding: 0px 8px; */
     margin: 0px 8px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
 }
 
 .nav-item:hover{
-    transform:scale(1.2);
+    /* transform:scale(1.2); */
     opacity:1;
     filter:blur(0);
     text-decoration:none;
     color:#fff;
+    transform: translateY(-8px);
 }
 
-.nav-item>.inactive::before{
+/* .nav-item>.inactive::before{
     content:'';
     position:absolute;
     top:0;
@@ -38,13 +42,13 @@
     transform-origin:right;
     transform:scaleX(0);
     z-index:-1;
-}
+} */
 
-.nav-item>.inactive:hover::before{
+/* .nav-item>.inactive:hover::before{
     transition:transform 0.8s;
     transform-origin:left;
     transform:scaleX(1);
-}
+} */
 
 /* .nav-link.active {
     position: relative;
