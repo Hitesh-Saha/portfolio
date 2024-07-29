@@ -1,21 +1,3 @@
-.technologies {
-  padding: 1rem;
-  text-align: center;
-  background: black;
-  color: white;
-}
-
-.technologiesHeader {
-  font-size: 1.7rem;
-  line-height: 3rem;
-  letter-spacing: 0.1rem;
-  word-spacing: 0.5rem;
-  /* text-shadow: 2px 2px 5px white; */
-  text-transform: capitalize;
-  padding: 1rem;
-  color: #00a1ff;
-}
-
 .technologiesDesc{
   display: flex;
   flex-direction: column;

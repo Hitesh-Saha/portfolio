@@ -13,13 +13,13 @@ const SkillSet = () => {
   const skillCardData = (item) => {
     return (
         <div className="col-12 col-md-4 col-lg-3 mx-auto my-4 d-flex justify-content-center align-items-center">
-          <div className="radialContainer">
+          <div className="radial-container">
             <CircularProgressbar
               counterClockwise="true"
               value={item.skillProgress}
               text={`${item.skillProgress}%`}
             />
-            <h6 className="skillName">{item.skillName}</h6>
+            <h6 className="skill-name">{item.skillName}</h6>
           </div>
         </div>
       );
@@ -29,33 +29,33 @@ const SkillSet = () => {
     <div className="container mb-5">
       <div className="row pt-4">
         <div className="col d-flex justify-content-center">
-          <h1 className="font-monospace fw-bold skillTitleHeader">My Skills</h1>
+          <h2 className="font-monospace fw-bold title">Skills</h2>
         </div>
       </div>
       <div className="col pt-5">
-        <h4 className="font-monospace fw-bold skillHeader">Web Design</h4>
+        <h4 className="font-monospace fw-bold skill-header">Web Design</h4>
       </div>
-      <div className="skillDesc">
+      <div className="skill-desc">
         {designSkillsData.map((item) => skillCardData(item))}
       </div>
       <div className="col pt-5">
-        <h4 className="font-monospace fw-bold skillHeader">Web Development</h4>
+        <h4 className="font-monospace fw-bold skill-header">Web Development</h4>
       </div>
-      <div className="skillDesc">
+      <div className="skill-desc">
         {developSkillsData.map((item) => skillCardData(item))}
       </div>
       <div className="col pt-5">
-        <h4 className="font-monospace fw-bold skillHeader">DevOps</h4>
+        <h4 className="font-monospace fw-bold skill-header">DevOps</h4>
       </div>
-      <div className="skillDesc">
+      <div className="skill-desc">
         {devopsSkillsData.map((item) => skillCardData(item))}
       </div>
       <div className="col pt-5">
-        <h4 className="font-monospace fw-bold skillHeader">
+        <h4 className="font-monospace fw-bold skill-header">
           Interpersonal Skills
         </h4>
       </div>
-      <div className="skillDesc">
+      <div className="skill-desc">
         {personalSkillsData.map((item) => skillCardData(item))}
       </div>
     </div>

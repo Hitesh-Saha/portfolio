@@ -1,0 +1,70 @@
+.experience{
+    padding: 1rem;
+    text-align: center;
+    background: black;
+    color: var(--primary-text);
+}
+
+.vertical-timeline-element-icon {
+    left: 49% !important;
+    margin: 0 !important;
+}
+
+.vertical-timeline-element-content {
+    box-shadow: 1px 1px 8px var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0.5rem !important;
+}
+
+.experience-header {
+    font-weight: 500;
+    color: var(--secondary-color);
+    line-height: 2.5rem;
+}
+
+.icon-class {
+    background: var(--secondary-color);
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+    box-shadow: var(--user-box-shadow);
+}
+
+/* .duration-class {
+    background: var(--secondary-background);
+    width: max-content !important;
+    padding: 1rem !important;
+} */
+
+/* .vertical-timeline-element:nth-child(odd)>div>.duration-class{
+    border-right: 2px solid var(--secondary-color);
+}
+.vertical-timeline-element:nth-child(even)>div>.duration-class{
+    border-left: 2px solid var(--secondary-color);
+} */
+
+.duration-class {
+    padding-right: 1rem;
+    font-size: small;
+    font-style: italic;
+}
+
+.badge {
+    box-shadow: var(--user-box-shadow);
+    background: var(--secondary-color);
+    color: var(--secondary-background) !important;
+}
+
+@media only screen and (max-width: 1169px) {
+    .vertical-timeline-element-icon {
+        left: 1% !important;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .vertical-timeline-element-icon {
+        left: 2% !important;
+    }
+}
