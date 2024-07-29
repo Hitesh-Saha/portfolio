@@ -1,4 +1,4 @@
-.radialContainer {
+.radial-container {
   height: 18rem;
   width: 13rem;
   padding-right: 2rem!important;
@@ -15,12 +15,12 @@
   position: relative;
 }
 
-.radialContainer:hover {
+.radial-container:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 35px rgba(0,0,0,0.5);
 }
 
-.radialContainer::before {
+.radial-container::before {
   content: '';
   position: absolute;
   top: 0;
@@ -49,7 +49,7 @@
 }
 
 .CircularProgressbar-path {
-  stroke: #00a1ff !important;
+  stroke: var(--secondary-color) !important;
 }
 
 .CircularProgressbar-text {
@@ -58,12 +58,12 @@
   transition: 0.5s;
 }  
 
-.radialContainer:hover .CircularProgressbar-text {
+.radial-container:hover .CircularProgressbar-text {
   font-size: 1.8rem;
-  fill: #fff !important;
+  fill: var(--primary-text) !important;
 }
 
-.skillName {
+.skill-name {
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -72,22 +72,19 @@
   margin-top: 1rem;
 }
 
-.radialContainer:hover .skillName{
-  color: #fff;
+.radial-container:hover .skill-name{
+  color: var(--primary-text);
 }
 
-.skillHeader {
+.skill-header {
   text-transform: uppercase;
   font-size: 1.8rem;
   padding-top: 0.5rem;
+  color: var(--secondary-color);
 }
 
-.skillDesc {
+.skill-desc {
   overflow-x: auto; 
   display: flex!important;
   flex-direction: row!important;
-}
-
-.skillTitleHeader {
-  color: #00a1ff
 }

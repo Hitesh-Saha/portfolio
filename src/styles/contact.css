@@ -1,18 +1,46 @@
-.backgroundOverlay{
+/* .backgroundOverlay{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/Background.jpg");
     background-attachment: fixed;
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
+} */
+  
+.contact-input {
+    border: 2px solid var(--secondary-color) !important;
+    box-shadow: var(--user-box-shadow);
+    background: var(--secondary-background) !important;
+    color: var(--primary-text) !important;
+}
+.form-floating>label{
+    color: var(--secondary-color) !important;
 }
 
-.submitBtn {
-    border: 1px solid #00a1ff;
-    color: #00a1ff;
+.form-floating>label::after{
+    color: var(--secondary-color) !important;
+    background-color: var(--secondary-background) !important;
 }
-  
-.submitBtn:hover {
-    background-color: #00a1ff;
+
+.submit-btn {
+    border: 1px solid var(--secondary-color) !important;
+    color: var(--secondary-color) !important;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 10rem;
+    border-radius: 0.8rem;
+}
+    
+.submit-btn:hover {
+    background-color: var(--secondary-color) !important;
+    box-shadow: var(--user-box-shadow) !important;
+    color: var(--secondary-background)!important;
+}
+
+.alert.alert-success {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #00fb89;
 }
 /* .contacts::before {
     content: "";

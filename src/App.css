@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
 
+:root {
+  --primary-color: #00a1ff;
+  --primary-background: #0c0c0c;
+  --secondary-background: #1e1e1e;
+  --primary-text: #ffffff;
+  --secondary-color: #00e5ff;
+  --user-box-shadow: 1px 1px 8px var(--secondary-color);
+  --text-box-shadow: 1px 1px 3px var(--secondary-color);
+}
+
 .App {
   min-height: 100vh;
   max-width: 100vw;
@@ -11,6 +21,59 @@
   flex-direction: column;
   justify-content: flex-start;
   overflow-y: auto;
+}
+
+.common-block {
+  padding: 1rem;
+  text-align: center;
+  color: var(--primary-text);
+}
+
+.odd-block {
+  background: black;
+}
+
+.even-block {
+  background: var(--secondary-background);
+}
+
+.text-header {
+  color: var(--secondary-color);
+  font-size: 2.8rem;
+  text-shadow: var(--text-box-shadow);
+}
+
+.title {
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
+  /* word-spacing: 0.5rem; */
+  text-transform: uppercase;
+  padding: 0.5rem;
+  color: var(--secondary-color);
+  text-shadow: var(--text-box-shadow);
+  position: relative;
+}
+
+.title::before{
+	content: '';
+	position: absolute;
+	left: 50%;
+    transform: translateX(-50%);
+	bottom: 0;
+    background-color: var(--secondary-color);
+	height: 1px;
+	width: 120px;
+}
+
+.title::after{
+	content: '';
+	position: absolute;
+	left: 50%;
+    transform: translateX(-50%);
+	bottom: -2px;
+    background-color: var(--secondary-color);
+	height: 5px;
+	width: 45px;
 }
 
 /* ScrollBar */

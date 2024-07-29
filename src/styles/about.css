@@ -1,19 +1,15 @@
-.aboutDesc {
+/* .about-desc { */
   /* text-align: left;
   font-size: 1.3rem;
   line-height: 2rem; */
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/Background.jpg");
+  /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/Background.jpg");
   background-attachment: fixed;
   background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   /* background-color: black; */
   /* color: white; */
-}
-
-.aboutHeader {
-  color: #00a1ff;
-}
+/* } */
 
 /* .aboutDesc p {
   margin-bottom: 1rem;
@@ -25,8 +21,11 @@
   width: 100%;
 }
 .image-container > img {
-  height: 100%;
+  height: 26rem;
   width: 100%;
+  border-radius: 50%;
+  border: 2px solid var(--secondary-color);
+  box-shadow: 2px 2px 40px var(--secondary-color);
   /* margin: auto; */
   /* position: absolute; */
   /* margin-top: 5rem; */

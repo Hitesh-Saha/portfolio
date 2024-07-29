@@ -3,14 +3,16 @@ import HeroSection from '../components/HeroSection.js';
 import Technologies from '../components/Technologies.js';
 import Certifications from '../components/Certifications.js';
 import Projects from '../components/Projects.js';
-// import About from './About.js';
 import '../styles/home.css'
+import Experience from '../components/Experience.js';
+import AboutSection from '../components/AboutSection.js';
 
 const Home = () => {
   return (
     <div className="parallax">
         <HeroSection/>
-        {/* <About/> */}
+        <AboutSection/>
+        <Experience />
         <Certifications/>
         <Projects/>
         <Technologies/>

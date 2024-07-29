@@ -33,10 +33,10 @@ const Technologies = () => {
 
   return (
     <>
-      <div className='technologies pt-4 '>
+      <div className='common-block odd-block pt-4 '>
         <div className='container-fluid mb-5'>
-          <div className='row'>
-            <div className='technologiesHeader'>
+          <div className='row mb-5'>
+            <div className='title'>
               <h1>Technologies</h1>
             </div>
           </div>        
@@ -86,9 +86,9 @@ const Technologies = () => {
               </div>
             </div>
           </div> */}
-          <div className='row pt-3'>
+          <div className='row'>
             <div className='d-flex flex-row gap-5 flex-wrap justify-content-center'>
-              <div className='pointer'>
+              <div>
                 <img src={HTMLLogo} height='50px' width='50px' alt='Technology'></img>
               </div>
               <div>

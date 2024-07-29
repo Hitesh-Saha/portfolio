@@ -1,26 +1,14 @@
 .certifications {
   padding: 1rem;
   text-align: center;
-  background-color: black;
-  color: white;
+  background: black;
+  color: var(--primary-text);
 }
 
-.certificationHeader {
-  font-size: 1.7rem;
-  line-height: 3rem;
-  letter-spacing: 0.1rem;
-  word-spacing: 0.5rem;
-  /* text-shadow: 2px 2px 5px white; */
-  text-transform: capitalize;
-  padding: 1rem;
-  color: #00a1ff;
-}
-
-.certificationDesc {
+.certification-desc {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  /* align-items: center; */
 }
 
 .flip-card {
@@ -33,9 +21,8 @@
   overflow: hidden;
   text-align: center;
   position: relative;
-  color: white !important;
-  /* border: 1px solid #f1f1f1; */
-  /* perspective: 1000px; Remove this if you don't want the 3D effect */
+  color: var(--primary-text) !important;
+  perspective: 1000px;
 }
 
 /* This container is needed to position the front and back side */
@@ -74,7 +61,7 @@
 /* Style the back side */
 .flip-card-back {
   /* background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b); */
-  color: white;
+  color: var(--primary-text);
   /* transform: rotateY(180deg); */
   display: flex;
   flex-direction: column; 
@@ -82,23 +69,27 @@
   align-items: center;
 }
 
-.certificateHeader {
+.certificate-header {
   font-size: 1.5rem;
   letter-spacing: 1px;
   font-weight: bolder;
 }
 
 .card-body > p:nth-of-type(1) {
-  color: #00a1ff;
+  color: var(--secondary-color);
 }
 
 .card-body > .btn {
-  border: 1px solid #00a1ff;
-  color: #00a1ff;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
 .card-body > .btn:hover {
-  background-color: #00a1ff;
+  background-color: var(--secondary-color);
+  box-shadow: var(--user-box-shadow);
+  color: var(--secondary-background)
 }
 
 .flip-card::before {
