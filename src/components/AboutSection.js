@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/about.css";
-import Profile from "../assets/new-profile.jpg";
+import Profile from "../assets/Profile.jpeg";
 import { useNavigate } from "react-router-dom";
 
 const AboutSection = () => {
