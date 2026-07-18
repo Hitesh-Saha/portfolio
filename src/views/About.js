@@ -1,6 +1,5 @@
 import React from "react";
-import Profile from "../assets/new-profile.jpg";
-// import Profile2 from '../assets/Profile2.png'
+import Profile from "../assets/Profile.jpeg";
 import "../styles/about.css";
 
 const About = () => {
@@ -13,10 +12,6 @@ const About = () => {
           </div>
         </div>
         <div className="row align-items-center fs-5 justify-content-center gap-2">
-          {/* <div className="col-4 image-container px-4">
-            <div><img src={Profile1} alt="My Pic" className='rounded-2'></img></div>
-            <div><img src={Profile2} alt="My Pic" className='rounded-2'></img></div>
-          </div> */}
           <div className="col-8 col-lg-4 image-container">
             <img src={Profile} alt="My Pic" className="" />
           </div>
